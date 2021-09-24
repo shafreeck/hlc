@@ -7,12 +7,12 @@
 ts := hlc.Now()
 ```
 
-## Tick when send or has local event
+## Tick when sending or having a local event
 ```go
 ts := hlc.Tick()
 ```
 
-## Tick when receives an event
+## Tick when receiving an event
 ```go
 ts := hlc.Tick(hlc.Sync(receivedTS))
 ```
